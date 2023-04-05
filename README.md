@@ -1,9 +1,9 @@
 # DriverDetection
 Deep Learningで車のペダル踏み間違い事故を防止するプロジェクトで作成した  
 
-![predict11](https://user-images.githubusercontent.com/116449282/229400077-9d2af224-7ed6-402b-9e3c-127ebfc17702.jpg)  
+![predict12](https://user-images.githubusercontent.com/116449282/229969539-f1f97d02-dc72-46ce-b2e5-09abd3bb2d19.jpg)  
 
-![predict10](https://user-images.githubusercontent.com/116449282/229400079-a11dd10d-7888-4bb8-931d-22496a88831f.jpg)  
+![predict11](https://user-images.githubusercontent.com/116449282/229969541-8d630c6c-46e3-486b-81fc-173ea23f0e35.jpg)  
 
 当初はCNNによる分類を行ったが、ペダルがある領域が暗すぎるためCNNでは足元を検出することができなかった。  
 対策として、手動でセグメンテーションを施した画像を使用したら精度が向上した。  
