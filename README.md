@@ -14,6 +14,9 @@ Deep Learningで車のペダル踏み間違い事故を防止するプロジェ�
 
 
 ## 開発環境
+PC：Windows 10 Education、Intel Core i7-7700K  
+メモリ：32.0GB  
+GPU：NVIDIA GeForce GTX 1080  
 
 ### テスト環境
 開発環境と同じ  
