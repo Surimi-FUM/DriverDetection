@@ -120,8 +120,7 @@ class SegmentationDataGenerator:
         mask_img = mask_img.resize(self.__image_shape)
         mask_img = np.array(mask_img)
 
-        # クラスが指定されていないとき
-        # 何の処理か忘れた。たぶんラベルを割り振っている
+        # クラスが指定されていないとき、ラベルを割りあてる
         if self.__target_class_ids is not None or self.__target_class_ids != []:
             cond = np.logical_not(np.isin(mask_img, self.__target_class_ids))
             mask_img[cond] = 0
